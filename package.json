@@ -1,0 +1,28 @@
+{
+  "name": "ChatMe",
+  "version": "1.0.0",
+  "description": "A real-time chat application using Node.js, GraphQL, MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekumamait/ChatMe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekumamait/ChatMe/issues"
+  },
+  "homepage": "https://github.com/ekumamait/ChatMe#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.2",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
